@@ -186,6 +186,12 @@ cite{
     justify-content: space-between;
     align-content: space-around;
 }
+@media (min-width: 400px){
+    display: grid;
+    grid-template-columns: 80px 350px;
+    justify-content: center;
+    margin-bottom: 10px;
+}
 .cardexp{
     background-color: #222;
     border-radius: 15px;
